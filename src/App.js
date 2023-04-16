@@ -13,7 +13,7 @@ function App(){
     
     let colorMap = colors.map((color, props) => {
         return (
-            <ColorBlock key=" " color={color} />
+            <ColorBlock key={color.name} color={color} />
         )
     })
 
